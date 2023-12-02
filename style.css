@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;   
+}
+body{
+    width: 99%;
+    height: 97%;
+    background-image: url(img/background2.jpg);
+    background-size: cover; 
+} 
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 0px 40px;
+}
+.logo{
+    font-size: 30px;
+    color: orange;
+}
+.nav{
+    position: relative;
+    right: 180px;
+
+}
+a{
+    padding:5px 15px;
+    color: orange;
+    font-size: 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.axtarış{
+    font-size: 25px;
+}
+.axtarış i{
+    padding: 5px 20px;
+}
+
+   /* başlıq */
+.başlıq{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:65px ;
+    align-items: center;
+}
+.sag{
+    width: 440px;
+    height: 440px;
+    background-image: url(img/food.jpeg);
+    background-size: cover;
+    border-radius: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sag::before{
+    width: 430px;
+    height: 430px;
+    border: 2px solid white;
+    content: '';
+    position: absolute;
+    border-radius: 410px;
+    padding: 10px;
+}
+.sol p:nth-child(1){
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+.sol h2{
+    font-size: 90px;
+    color: white;
+}
+.sol p:nth-child(3){
+    color: orange;
+    font-size: 30px;
+    font-style: italic;
+}
+.sol button{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    margin: 20px 0px;
+
+}
+.sosial{
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 40px;
+    height: 200px;
+    background-color: white;
+    font-size: 25px;
+}
+.sosial i:hover{
+    color: orange;
+
+}
+
+#food1,#food2{
+    background-size:cover ;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 0px 20px;
+}
+#food1{
+    background-image: url(img/food2.jpg);
+}
+#food2{
+    background-image: url(img/food.jpeg);
+}
+.menyu{
+    display: flex;
+    margin: 0px 100px;
+}
